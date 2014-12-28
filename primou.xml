@@ -19,7 +19,7 @@
     <project name="LegacyXperia/android_kernel_semc_msm7x30" path="kernel/htc/msm7x30-3.4-LegacyXperia" revision="cm-12.0" />
 
     <!-- Qualcomm -->
-   	<project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="lollipop" />
+    <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="lollipop" />
     <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-caf/msm7x30" revision="lollipop" />
     <project name="Evervolv/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" revision="lollipop-8960" />
 
