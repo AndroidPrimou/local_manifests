@@ -17,6 +17,7 @@
     <project name="OpenDesireProject/android_kernel_htc_msm7x30" path="kernel/htc/msm7x30-3.0-OpenDesireProject" revision="cm-12.0" />
     <project name="Evervolv/android_kernel_htc_msm7x30-3.0" path="kernel/htc/msm7x30-3.0-Evervolv" revision="lollipop" />
     <project name="LegacyXperia/android_kernel_semc_msm7x30" path="kernel/htc/msm7x30-3.4-LegacyXperia" revision="cm-12.0" />
+    <project name="arco/samsung-kernel-msm7x30" path="kernel/htc/msm7x30-3.4-arco" revision="cm-11.0" />
 
     <!-- Qualcomm -->
     <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="lollipop" />
