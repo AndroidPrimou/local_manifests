@@ -3,18 +3,18 @@
 
 
     <!-- Device Configurations -->
-<!--    <project name="rastomanchik/android_device_htc_primou" path="device/htc/primou" revision="master" />
-    <project name="rastomanchik/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="master" /> -->
     <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-11.0" />
     <project name="AndroidPrimou/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="cm-11.0" />
 
 
     <!-- Kernel -->
-    <project name="rastomanchik/android_kernel_htc_primou" path="kernel/htc/msm7x30-rastomanchik" revision="kitkat" />
+    <project name="AndroidPrimou/android_kernel_htc_primou" path="kernel/htc/msm7x30-androidprimou" revision="cm-11.0" />
 
     <!-- Qualcomm -->
     <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="kitkat" />
     <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="kitkat" />
 
+    <!-- Vendor files -->
+    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-12.0" />
 
 </manifest>
