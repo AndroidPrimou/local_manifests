@@ -12,7 +12,6 @@
     <!-- Device Configurations -->
 <!--    <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-12.0" />
     <project name="AndroidPrimou/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="cm-12.0" /> -->
-    <project name="AndroidPrimou/android_device_htc_primou-old" path="device/htc/primou" revision="twrp" />
 
 
     <!-- Kernel -->
@@ -23,6 +22,10 @@
     <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-caf/msm7x30" revision="lollipop" />
     <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-caf/msm7x30" revision="lollipop" />
     <project name="Evervolv/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" revision="lollipop-8960" />
+
+
+    <!-- Vendor files -->
+    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-12.0" />
 
 
     <!-- TWRP-Recovery -->
