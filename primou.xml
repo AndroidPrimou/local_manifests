@@ -24,7 +24,7 @@
 
 
     <!-- Vendor files -->
-    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-12.1-caf" />
+    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-12.1-jb-caf" />
 
 
     <!-- TWRP-Recovery -->
