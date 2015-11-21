@@ -3,32 +3,30 @@
 
 
     <!-- Replace CM Projects -->
-    <remove-project name="CyanogenMod/android_system_core" />
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-    <project path="system/core" name="AndroidPrimou/android_system_core" revision="cm-12.1" />
-    <project path="packages/apps/CMUpdater" name="AndroidPrimou/android_packages_apps_CMUpdater" revision="cm-12.1" />
+    <project path="packages/apps/CMUpdater" name="AndroidPrimou/android_packages_apps_CMUpdater" revision="cm-13.0" />
 
     <!-- Device Configurations -->
-    <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-12.1" />
-    <project name="AndroidPrimou/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="cm-12.1-caf" />
+    <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-13.0" />
+    <project name="AndroidPrimou/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="cm-13.0" />
 
 
     <!-- Kernel -->
-    <project name="AndroidPrimou/android_kernel_htc_msm7x30" path="kernel/htc/msm7x30" revision="cm-12.1-caf" />
+    <project name="AndroidPrimou/android_kernel_htc_msm7x30" path="kernel/htc/msm7x30" revision="cm-13.0" />
 
 
     <!-- Qualcomm -->
-    <project name="AndroidPrimou/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-12.1-caf-7x30" />
-    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-12.1-caf-7x30" />
+    <project name="AndroidPrimou/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-13.0-caf-7x30" />
+    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-13.0-caf-7x30" />
     <project name="OpenDesireProject/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.1-legacy-msm7x30" />
 
 
     <!-- Vendor files -->
-    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-12.1-jb-caf" />
+    <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-13.0-jb-caf" />
 
 
     <!-- TWRP-Recovery -->
-    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-5.1" />
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-6.0" />
 
 
 </manifest>
