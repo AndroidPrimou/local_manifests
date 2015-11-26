@@ -6,6 +6,8 @@
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
     <project path="packages/apps/CMUpdater" name="AndroidPrimou/android_packages_apps_CMUpdater" revision="cm-13.0" />
 
+    <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r26" />
+
     <!-- Device Configurations -->
     <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-13.0" />
     <project name="AndroidPrimou/android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" revision="cm-13.0" />
