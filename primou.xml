@@ -4,7 +4,11 @@
 
     <!-- Replace CM Projects -->
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+    <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+    <remove-project name="CyanogenMod/android_system_core" />
     <project path="packages/apps/CMUpdater" name="AndroidPrimou/android_packages_apps_CMUpdater" revision="cm-13.0" />
+    <project path="frameworks/opt/telephony" name="AndroidPrimou/android_frameworks_opt_telephony" revision="cm-13.0" />
+    <project path="system/core" name="AndroidPrimou/android_system_core" revision="cm-13.0" />
 
     <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r26" />
 
@@ -19,8 +23,8 @@
 
     <!-- Qualcomm -->
     <project name="AndroidPrimou/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm7x30" revision="cm-13.0-caf-7x30" />
-    <project name="msm7x30/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm7x30" revision="cm-13.0-caf-7x30" />
-    <project name="OpenDesireProject/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-caf/msm7x30" revision="cm-12.1-legacy-msm7x30" />
+    <project name="AndroidPrimou/android_hardware_qcom_media-legacy" path="hardware/qcom/media-caf/msm7x30" revision="cm-13.0-legacy-msm7x30" />
+    <project name="OpenDesireProject/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-caf/msm7x30" revision="cm-13.0-legacy-msm7x30" />
 
 
     <!-- Vendor files -->
