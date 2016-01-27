@@ -10,7 +10,7 @@
     <project path="frameworks/opt/telephony" name="AndroidPrimou/android_frameworks_opt_telephony" revision="cm-13.0" />
     <project path="system/core" name="AndroidPrimou/android_system_core" revision="cm-13.0" />
 
-    <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r26" />
+    <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r33" />
 
     <!-- Device Configurations -->
     <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-13.0" />
