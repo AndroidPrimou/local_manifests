@@ -6,11 +6,11 @@
     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
     <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
     <remove-project name="CyanogenMod/android_system_core" />
-    <project path="packages/apps/CMUpdater" name="AndroidPrimou/android_packages_apps_CMUpdater" revision="cm-13.0" />
-    <project path="frameworks/opt/telephony" name="AndroidPrimou/android_frameworks_opt_telephony" revision="cm-13.0" />
-    <project path="system/core" name="AndroidPrimou/android_system_core" revision="cm-13.0" />
+    <project name="AndroidPrimou/android_packages_apps_CMUpdater" path="packages/apps/CMUpdater" revision="cm-13.0" />
+    <project name="AndroidPrimou/android_frameworks_opt_telephony" path="frameworks/opt/telephony" revision="cm-13.0" />
+    <project name="AndroidPrimou/android_system_core" path="system/core" revision="cm-13.0" />
 
-    <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r33" />
+    <project name="CyanogenMod/android_external_stlport" path="external/stlport" revision="cm-13.0"/>
 
     <!-- Device Configurations -->
     <project name="AndroidPrimou/android_device_htc_primou" path="device/htc/primou" revision="cm-13.0" />
