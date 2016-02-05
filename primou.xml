@@ -13,7 +13,7 @@
 
     <!-- Qualcomm -->
     <project name="AndroidPrimou/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-11.0" />
-    <project name="OpenDesireProject/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-11.0" />
+    <project name="OpenDesireProject/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-11.0-old" />
 
     <!-- Vendor files -->
     <project name="AndroidPrimou/proprietary_vendor_htc" path="vendor/htc" revision="cm-11.0" />
